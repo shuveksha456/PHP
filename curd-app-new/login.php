@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
        header("location: index.php");
     }else{
            $error= "Username or password do not match";
-        echo $error; 
+        // echo $error; 
           }
         }    
 ?>
